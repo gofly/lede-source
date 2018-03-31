@@ -171,6 +171,7 @@ platform_check_image() {
 	wt1520|\
 	wt3020|\
 	wzr-agl300nh|\
+	wr-525w |\
 	x5|\
 	x8|\
 	y1|\

@@ -294,6 +294,14 @@ define Device/psg1218
 endef
 TARGET_DEVICES += psg1218
 
+define Device/wr-525w
+  DTS := WR-525W
+  IMAGE_SIZE := 16000k
+  DEVICE_TITLE := DualWan WR-525W
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb-dwc2 kmod-ledtrig-usbdev
+endef
+TARGET_DEVICES += wr-525w
+
 define Device/y1
   DTS := Y1
   IMAGE_SIZE := $(ralink_default_fw_size_16M)

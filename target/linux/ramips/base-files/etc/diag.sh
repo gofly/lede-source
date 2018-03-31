@@ -54,6 +54,9 @@ get_status_led() {
 	jhr-n825r|\
 	mpr-a1|\
 	mpr-a2|\
+	wr-525w)
+                status_led="$board:blue:wlan"
+                ;;
 	mzk-ex750np|\
 	wn3000rpv3)
 		status_led="$board:red:power"
